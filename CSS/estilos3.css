@@ -1,0 +1,127 @@
+@font-face{
+	font-family:Monster;
+	src:url(../Fuentes/Monster.ttf);
+}
+@font-face{
+	font-family:Nadia;
+	src:url(../Fuentes/Nadia.ttf);
+}
+@font-face{
+	font-family:AND;
+	src:url(../Fuentes/AND.ttf);
+}
+head{
+	width:100%;
+}
+h1{
+	font-family:Nadia;
+	font-size:60px;
+	color:white;
+	background-image:url(../Imagenes/AX4.jpg);
+	background-size:cover;
+	text-align:center;
+	border-radius: 50px 50px 50px 50px;
+	width:500px;
+	height:80px;
+	margin-left:35%;
+	padding-top:20px;
+	
+}
+body{
+	background-image:url(../Imagenes/universe.jpg);
+	background-position: center;
+	overflow-x:hidden;
+}
+
+.p{
+	background-color: #F3F781;
+	overflow: hidden;
+	font-family:Verdana;
+	font-size:16px;
+	text-align: justify;
+	left:50%;
+	top:50%;
+	margin-left: 350px;
+	margin-right: 350px;
+	border: dotted 8px;
+	padding:8px;
+}
+
+img{
+	border:6px double silver;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+
+}
+.A1{
+	float:left;
+	width:250px;
+	height:235px
+}
+.A2, .A7{
+	float:right;
+	width:250px;
+	height:250px;
+}
+.A3{
+	float:left;
+	height:300px;
+	width:200px;
+}
+.A4{
+	float:right;
+	height:250px;
+	width:350px;
+}
+.A5{
+	float:left;
+	width:170px;
+	height:170px;
+}
+
+.A8{
+	float:left;
+	height:200px;
+	width:400px;
+}
+.A9{
+	float:right;
+	height:100px;
+	width:300px;
+}
+.A6{
+	float:right;
+	width:200px;
+	height:200px;
+}
+.A10{
+	position:relative;
+	float:left;
+	width:400px;
+	height:250px;
+	left:33%;
+}
+button{
+background-image:url(../Imagenes/AX4.jpg);
+border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px solid yellow;
+width:100px;
+height:50px;
+left:45%;
+position:relative;
+}
+
+a:visited{
+	color: Green;
+}
+a:link{
+	color:yellow;
+	text-decoration:none;
+}
+
+
+
